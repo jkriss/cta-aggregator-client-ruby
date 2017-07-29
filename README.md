@@ -38,7 +38,7 @@ CTAAggregatorClient.configure do |config|
   config.base_url = ENV['CTA_AGGREGATOR_HOST'] # => 'localhost:3000', staging url or production url
   config.api_version = ENV['CTA_AGGREGATOR_VERSION']  # => probably 'v1'
   config.api_key = ENV['CTA_AGGREGATOR_KEY'] # => whatever your key is
-  config.api_secret = ENV['CTA_AGGREGATOR_SECRET'] # => whatever your key is
+  config.api_secret = ENV['CTA_AGGREGATOR_SECRET'] # => whatever your secret is
 end
 ```
 
